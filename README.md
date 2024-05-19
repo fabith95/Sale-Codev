@@ -151,3 +151,6 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 This project is licensed under the MIT license, Copyright (c) 2019 Maximilian Stoiber.
 For more information see `LICENSE.md`.
+
+#Mockup Figma
+https://www.figma.com/design/4X5d1zGnr5NnHBuJZrVkZT/SalesCodev?node-id=0-1&t=cCtqaI6aKCnOiF8c-0

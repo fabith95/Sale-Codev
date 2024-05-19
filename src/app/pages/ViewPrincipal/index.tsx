@@ -1,14 +1,23 @@
+import { ViewInfoClothing } from './Features/ViewInfoClothing';
+import { ViewProductRelated } from './Features/ViewProductsRelated';
 import { ViewSalesHome } from './Features/ViewSalesHome';
-import { Container, ContainerApp, ContainerNav } from './components/Container';
+import {
+  Container,
+  ContainerApp,
+  ContainerAppTwo,
+} from './components/Container';
 
 export function ViewPrincipal() {
   return (
     <>
       <Container>
-        <ContainerNav />
         <ContainerApp>
           <ViewSalesHome />
+          <ViewInfoClothing />
         </ContainerApp>
+        <ContainerAppTwo>
+          <ViewProductRelated />
+        </ContainerAppTwo>
       </Container>
     </>
   );

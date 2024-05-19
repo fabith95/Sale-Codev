@@ -15,6 +15,8 @@ import { GlobalStyle } from 'styles/global-styles';
 import { HomePage } from './pages/HomePage/Loadable';
 import { NotFoundPage } from './pages/NotFoundPage/Loadable';
 import { useTranslation } from 'react-i18next';
+import { NavBar } from './features/NavBar';
+import { Footer } from './features/Footer';
 import { ViewPrincipal } from './pages/ViewPrincipal';
 
 export function App() {
@@ -28,12 +30,14 @@ export function App() {
       >
         <meta name="description" content="A React Boilerplate application" />
       </Helmet>
+      <NavBar />
 
       <Routes>
         <Route path="/" element={<ViewPrincipal />} />
         <Route path="/example" element={<HomePage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
+      <Footer />
       <GlobalStyle />
     </BrowserRouter>
   );

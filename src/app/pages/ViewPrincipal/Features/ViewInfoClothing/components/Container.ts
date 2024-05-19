@@ -1,9 +1,10 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 40%;
-  height: 40vh;
-  border: solid pink 7px;
+  width: 30%;
+  height: 50%;
+  border: solid yellow 7px;
   display: flex;
-  justify-content: flex-end;
+  margin-right: 7%;
+  margin-top: 3%;
 `;
