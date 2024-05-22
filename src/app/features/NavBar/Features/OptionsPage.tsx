@@ -4,7 +4,7 @@ import {
   MailOutlined,
   SettingOutlined,
 } from '@ant-design/icons';
-import { Menu } from 'antd';
+import { ConfigProvider, Menu } from 'antd';
 const items = [
   {
     label: 'Home',
@@ -31,20 +31,29 @@ const App = () => {
     setCurrent(e.key);
   };
   return (
-    <Menu
-      onClick={onClick}
-      selectedKeys={[current]}
-      mode="horizontal"
-      style={{
-        width: 400,
-        backgroundColor: 'rgb(21,30,45)',
-        color: 'white',
-        fontSize: 'x-large',
-        fontFamily: 'sans-serif',
-        alignItems: 'flex-end'
-      }}
-      items={items}
-    />
+    <div>
+      <ConfigProvider
+        theme={{
+          token : {
+            colorTextBase: '#ffffff',
+          },
+        }}
+      >
+        <Menu
+          onClick={onClick}
+          selectedKeys={[current]}
+          mode="horizontal"
+          style={{
+            width: 400,
+            backgroundColor: 'rgb(21,30,45)',
+            fontSize: 'x-large',
+            fontFamily: 'sans-serif',
+            alignItems: 'flex-end',
+          }}
+          items={items}
+        />
+      </ConfigProvider>
+    </div>
   );
 };
 export default App;
