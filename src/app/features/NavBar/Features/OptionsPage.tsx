@@ -34,8 +34,9 @@ const App = () => {
     <div>
       <ConfigProvider
         theme={{
-          token : {
+          token: {
             colorTextBase: '#ffffff',
+            fontSize: 25,
           },
         }}
       >
@@ -44,11 +45,9 @@ const App = () => {
           selectedKeys={[current]}
           mode="horizontal"
           style={{
-            width: 400,
+            width: 405,
             backgroundColor: 'rgb(21,30,45)',
-            fontSize: 'x-large',
             fontFamily: 'sans-serif',
-            alignItems: 'flex-end',
           }}
           items={items}
         />
