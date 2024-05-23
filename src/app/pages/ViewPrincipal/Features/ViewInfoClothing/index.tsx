@@ -5,28 +5,30 @@ export function ViewInfoClothing() {
     <Container>
       <div>
         <ul>
-          <ol>Buso SW-Enginner</ol>
+          <ol style={{ fontSize: 30, marginTop: 60 }}>
+            <b>Buso SW-Enginner</b>
+          </ol>
         </ul>
         <ul>
-          <li>Chompa</li>
+          <li style={{ fontSize: 20, marginTop: 60 }}>Clothing with Chompa</li>
         </ul>
         <ul>
-          <li>$65.000</li>
-        </ul>
-        <br></br>
-        <ul>
-          <li>Producto Colombiano</li>
+          <li style={{ fontSize: 20 }}>$65.000</li>
         </ul>
         <ul>
-          <li>100% Algodon</li>
+          <li style={{ fontSize: 20 }}>Producto Colombiano</li>
+        </ul>
+        <ul>
+          <li style={{ fontSize: 20 }}>100% Algodon</li>
         </ul>
       </div>
       <button
         style={{
-          width: 250,
+          width: 450,
           height: 40,
           marginTop: 30,
-          marginLeft: 120,
+          marginLeft: 20,
+          borderRadius: 10,
           backgroundColor: 'black',
           color: 'white',
         }}

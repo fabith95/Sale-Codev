@@ -57,10 +57,10 @@ export const ContainerDescribeOptions = styled.div`
 
 export const ContainerLinkSocial = styled.div`
   width: 15%;
-  height: 5vh;
+  //height: 5vh;
   display: flex;
   flex-direction: row;
-  border: solid black 7px;
+  border: solid black 5px;
   justify-content: space-between;
   margin-left: 38%;
   margin-bottom: 12%;

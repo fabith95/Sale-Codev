@@ -65,8 +65,9 @@ export const ContainerClothingFourt = styled.div`
 
 export const ContainerClothingDescribe = styled.div`
   width: 100%;
-  height: 20%;
+  height: 30%;
   border: solid blue 3px;
   display: flex;
+  flex-direction: column;
   align-items: flex-start;
 `;
