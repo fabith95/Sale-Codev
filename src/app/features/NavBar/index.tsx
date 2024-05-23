@@ -41,7 +41,7 @@ export function NavBar() {
           <img
             style={{
               width: '50%',
-              height: '7vh',
+              height: '6vh',
               border: '5px red',
             }}
             src={LogoUsers}
