@@ -23,7 +23,51 @@ export const ContainerProductsRelated = styled.div`
   height: 48vh;
   border: solid green 7px;
   display: flex;
+  justify-content: flex-end;
   margin-top: 0.5%;
   margin-right: 7%;
   margin-left: 5%;
+`;
+
+export const ContainerClothingOne = styled.div`
+  width: 25%;
+  //height: 50%;
+  flex-direction: column;
+  border: solid yellow 3px;
+  display: flex;
+  align-items: center;
+`;
+export const ContainerClothingTwo = styled.div`
+  width: 25%;
+  //height: 50%;
+  flex-direction: column;
+  border: solid yellow 3px;
+  display: flex;
+  align-items: center;
+`;
+export const ContainerClothingThree = styled.div`
+  width: 25%;
+  //height: 50%;
+  flex-direction: column;
+  border: solid yellow 3px;
+  display: flex;
+  align-items: center;
+`;
+
+export const ContainerClothingFourt = styled.div`
+  width: 25%;
+  //height: 50%;
+  flex-direction: column;
+  border: solid yellow 3px;
+  display: flex;
+  align-items: center;
+`;
+
+export const ContainerClothingDescribe = styled.div`
+  width: 100%;
+  height: 30%;
+  border: solid blue 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 `;

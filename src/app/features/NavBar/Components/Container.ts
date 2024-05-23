@@ -38,13 +38,13 @@ export const ContainerPageOptionsImg = styled.div`
   height: 8vh;
   display: flex;
   flex-direction: row;
-  border: solid black 7px;
-  margin-right: 5%;
+  border: solid violet 7px;
+  margin-right: 25px;
 `;
 
 export const ContainerPageOptionsButtom = styled.div`
-  width: 75%;
-  height: 6vh;
+  width: 77%;
+  //height: 6vh;
   display: flex;
   flex-direction: row;
   border: solid black 7px;
