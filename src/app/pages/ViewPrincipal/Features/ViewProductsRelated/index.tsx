@@ -12,6 +12,7 @@ import caCodeHelloWorldCeNe from 'utils/Img/Products/caCodeHelloWorldCeNe.png';
 import buCodeIdCeNe from 'utils/Img/Products/buCodeIdCeNe.png';
 import camisaCodeBinary from 'utils/Img/Products/camisaCodeBinary.png';
 import buPythonLoLaNe from 'utils/Img/Products/buPythonLoLaNe.png';
+import { Divider } from 'antd';
 
 export function ViewProductRelated() {
   return (
@@ -32,6 +33,9 @@ export function ViewProductRelated() {
             src={caCodeHelloWorldCeNe}
             alt="muestrate"
           />
+          <Divider
+            style={{ height: '1px', backgroundColor: '#ccc', margin: '1px 0' }}
+          ></Divider>
           <ContainerClothingDescribe>
             <ul>
               <ol style={{ marginLeft: -40 }}>
@@ -54,6 +58,9 @@ export function ViewProductRelated() {
             src={buCodeIdCeNe}
             alt="muestrate"
           />
+          <Divider
+            style={{ height: '1px', backgroundColor: '#ccc', margin: '1px 0' }}
+          ></Divider>
           <ContainerClothingDescribe>
             <ul>
               <ol style={{ marginLeft: -40 }}>
@@ -76,6 +83,9 @@ export function ViewProductRelated() {
             src={camisaCodeBinary}
             alt="muestrate"
           />
+          <Divider
+            style={{ height: '1px', backgroundColor: '#ccc', margin: '1px 0' }}
+          ></Divider>
           <ContainerClothingDescribe>
             <ul>
               <ol style={{ marginLeft: -40 }}>
@@ -97,6 +107,13 @@ export function ViewProductRelated() {
             src={buPythonLoLaNe}
             alt="muestrate"
           />
+          <Divider
+            style={{
+              height: '1px',
+              backgroundColor: '#d9d9d9',
+              margin: '1px 0',
+            }}
+          ></Divider>
           <ContainerClothingDescribe>
             <ul>
               <ol style={{ marginLeft: -40 }}>
@@ -111,15 +128,3 @@ export function ViewProductRelated() {
     </Container>
   );
 }
-/*<h3><b></b></h3>
-            <p></p>
-            <p><b></b></p>
-            <div style={{ alignItems: 'stretch' }}>
-              <h3>
-                <b>Hello World</b>
-              </h3>
-              <p>Worlds for alls the developers</p>
-              <p>
-                <b>$ 54.000</b>
-              </p>
-            </div>*/

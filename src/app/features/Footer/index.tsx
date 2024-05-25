@@ -21,7 +21,6 @@ export function Footer() {
             style={{
               width: '100%',
               height: '16vh',
-              border: 'dotted 5px red',
             }}
             src={LogoFooter}
             alt="muestrate"
@@ -49,12 +48,12 @@ export function Footer() {
           </ul>
           <ContainerLinkSocial>
             <img
-              style={{ width: '35px', height: '4vh', border: 'dotted 5px red' }}
+              style={{ width: '35px', height: '4vh' }}
               src={iconFace}
               alt="muestrate"
             />
             <img
-              style={{ width: '35px', height: '4vh', border: 'dotted 5px red' }}
+              style={{ width: '35px', height: '4vh' }}
               src={iconInstagram}
               alt="muestrate"
             />
