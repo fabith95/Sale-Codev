@@ -37,6 +37,7 @@ const App = () => {
           token: {
             colorTextBase: '#ffffff',
             fontSize: 25,
+            fontWeightStrong: 700,
           },
         }}
       >
@@ -45,9 +46,10 @@ const App = () => {
           selectedKeys={[current]}
           mode="horizontal"
           style={{
-            width: 405,
+            width: 430,
             backgroundColor: 'rgb(21,30,45)',
-            fontFamily: 'sans-serif',
+            fontFamily: 'Arial',
+            fontWeight: 600,
           }}
           items={items}
         />

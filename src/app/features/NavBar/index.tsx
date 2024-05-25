@@ -20,7 +20,6 @@ export function NavBar() {
           style={{
             width: '100%',
             height: '14vh',
-            border: 'dotted 5px red',
           }}
           src={LogoOne}
           alt="muestrate"
@@ -33,7 +32,7 @@ export function NavBar() {
               width: '50%',
               height: '7vh',
               border: '5px red',
-              marginRight: 15
+              marginRight: 15,
             }}
             src={CarShopping}
             alt="muestrate"
